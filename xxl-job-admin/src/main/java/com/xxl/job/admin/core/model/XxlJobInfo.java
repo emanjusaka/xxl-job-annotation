@@ -17,8 +17,8 @@ public class XxlJobInfo {
 	private String jobClass;	// 任务执行JobBean 【base on quartz】
 	//private String jobData;		// 任务执行数据 Map-JSON-String
 	
-	private Date addTime;
-	private Date updateTime;
+	private Date addTime; // 添加时间
+	private Date updateTime; // 更新时间
 	
 	private String author;		// 负责人
 	private String alarmEmail;	// 报警邮件
